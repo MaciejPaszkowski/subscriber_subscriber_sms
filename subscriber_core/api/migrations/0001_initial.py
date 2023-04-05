@@ -37,7 +37,7 @@ class Migration(migrations.Migration):
             ],
         ),
         migrations.CreateModel(
-            name="User",
+            name="AppUser",
             fields=[
                 ("id", models.IntegerField(primary_key=True, serialize=False)),
                 ("create_data", models.DateTimeField()),

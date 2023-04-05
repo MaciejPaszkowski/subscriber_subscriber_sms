@@ -22,7 +22,7 @@ class Client(models.Model):
     phone = models.CharField(max_length=20)
 
 
-class User(models.Model):
+class AppUser(models.Model):
     id = models.IntegerField(primary_key=True)
     create_data = models.DateTimeField()
     email = models.CharField(max_length=240)
